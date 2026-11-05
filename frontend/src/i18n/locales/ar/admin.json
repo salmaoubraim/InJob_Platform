@@ -1,0 +1,233 @@
+{
+  "brand": {
+    "title": "InJob",
+    "subtitle": "الإدارة"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "users": "المستخدمون",
+    "offers": "عروض العمل",
+    "applications": "الترشيحات",
+    "categories": "الفئات والمهن",
+    "messages": "الرسائل",
+    "support": "دعم المنصة",
+    "reviews": "التقييمات والتعليقات",
+    "notifications": "الإشعارات",
+    "statistics": "الإحصائيات",
+    "settings": "الإعدادات",
+    "profile": "ملفي الشخصي",
+    "logout": "تسجيل الخروج"
+  },
+  "topbar": {
+    "searchPlaceholder": "البحث في القائمة أو الإعدادات..."
+  },
+  "common": {
+    "save": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "search": "بحث…",
+    "loading": "جاري التحميل…",
+    "noData": "لا توجد بيانات.",
+    "confirmDelete": "حذف نهائي؟",
+    "enabled": "مفعّل",
+    "disabled": "معطّل",
+    "unavailable": "البيانات غير متاحة",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "actions": "إجراءات",
+    "close": "إغلاق",
+    "previous": "السابق",
+    "next": "التالي",
+    "all": "الكل",
+    "saveSuccess": "تم حفظ الإعدادات."
+  },
+  "stats": {
+    "title": "الإحصائيات",
+    "subtitle": "مؤشرات رئيسية وأداء منصة InJob.",
+    "cards": {
+      "users": "المستخدمون المسجلون",
+      "candidates": "المرشحون",
+      "recruiters": "مسؤولو التوظيف",
+      "activeOffers": "عروض نشطة",
+      "expiredOffers": "عروض منتهية",
+      "applications": "إجمالي الترشيحات",
+      "messages": "الرسائل المتبادلة",
+      "reviews": "التقييمات المنشورة",
+      "avgRating": "متوسط التقييم"
+    },
+    "charts": {
+      "applicationsByMonth": "الترشيحات شهرياً",
+      "byCategory": "التوزيع حسب الفئة",
+      "registrations": "تطور التسجيلات",
+      "offersByMonth": "العروض المنشورة شهرياً",
+      "candidates": "المرشحون",
+      "recruiters": "مسؤولو التوظيف"
+    },
+    "system": {
+      "title": "حالة النظام",
+      "serverStatus": "حالة الخادم",
+      "database": "قاعدة البيانات",
+      "connected": "متصلة",
+      "disconnected": "غير متصلة",
+      "responseTime": "زمن الاستجابة",
+      "activeSessions": "الجلسات النشطة",
+      "uptime": "وقت التشغيل",
+      "lastCheck": "آخر فحص"
+    },
+    "ratingOutOf": "{{value}} / 5",
+    "noRating": "—"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subtitle": "الإعداد العام لمنصة InJob",
+    "tabs": {
+      "general": "عام",
+      "security": "الأمان",
+      "notifications": "الإشعارات",
+      "languages": "اللغات",
+      "appearance": "المظهر",
+      "profile": "الملف الشخصي"
+    },
+    "general": {
+      "siteInfo": "معلومات الموقع",
+      "siteName": "اسم المنصة",
+      "version": "إصدار النظام",
+      "darkMode": "الوضع الداكن",
+      "darkModeHint": "استخدام سمة داكنة لواجهة الإدارة.",
+      "maintenance": "وضع الصيانة",
+      "maintenanceHint": "يقيّد الوصول للمستخدمين غير المديرين."
+    },
+    "security": {
+      "title": "الأمان",
+      "sanctum": "مصادقة Sanctum مفعّلة للـ API.",
+      "bcrypt": "كلمات المرور مشفّرة بـ bcrypt.",
+      "adminOnly": "الوصول الإداري مقيّد بدور المدير.",
+      "sessionTimeout": "مهلة الجلسة (دقائق)",
+      "passwordTitle": "تغيير كلمة مرور المدير"
+    },
+    "notifications": {
+      "title": "إشعارات المدير",
+      "inscriptions": "تسجيلات جديدة",
+      "offres": "عروض منشورة جديدة",
+      "candidatures": "ترشيحات جديدة",
+      "support": "تذاكر الدعم",
+      "avis": "تقييمات جديدة",
+      "security": "تنبيهات أمنية"
+    },
+    "languages": {
+      "title": "لغة واجهة المدير",
+      "description": "اختر اللغة المعروضة في لوحة الإدارة.",
+      "french": "Français",
+      "english": "English",
+      "arabic": "العربية"
+    },
+    "appearance": {
+      "title": "المظهر",
+      "darkMode": "الوضع الداكن",
+      "darkModeHint": "استخدم سمة داكنة لواجهة الإدارة."
+    }
+  },
+  "users": {
+    "title": "إدارة المستخدمين",
+    "subtitle": "الإشراف على حسابات المرشحين ومسؤولي التوظيف والمديرين.",
+    "searchPlaceholder": "البحث بالاسم أو البريد…",
+    "allRoles": "جميع الأدوار",
+    "roleCandidate": "المرشحون",
+    "roleRecruiter": "مسؤولو التوظيف",
+    "roleAdmin": "المديرون",
+    "columns": {
+      "user": "المستخدم",
+      "email": "البريد",
+      "phone": "الهاتف",
+      "role": "الدور",
+      "status": "الحالة"
+    },
+    "active": "نشط",
+    "suspended": "موقوف",
+    "suspend": "إيقاف",
+    "activate": "تفعيل",
+    "warn": "تحذير",
+    "viewProfile": "عرض الملف",
+    "confirmSuspend": "إيقاف هذا الحساب؟",
+    "suspendedOk": "تم إيقاف الحساب.",
+    "activatedOk": "تم تفعيل الحساب.",
+    "warnPrompt": "رسالة التحذير:",
+    "warnOk": "تم إرسال التحذير.",
+    "deletedOk": "تم حذف المستخدم."
+  },
+  "messages": {
+    "title": "الرسائل",
+    "subtitle": "الرسائل المستلمة من نموذج الاتصال.",
+    "searchPlaceholder": "البحث بالاسم أو البريد أو المحتوى…",
+    "inbox": "صندوق الوارد",
+    "clearAll": "مسح جميع الرسائل",
+    "selectMessage": "اختر رسالة للقراءة والرد.",
+    "replyPlaceholder": "ردك للمرسل…",
+    "allStatuses": "جميع الحالات",
+    "statusNew": "جديد",
+    "statusRead": "مقروء",
+    "statusReplied": "تم الرد"
+  },
+  "offers": {
+    "title": "عروض العمل",
+    "subtitle": "الإشراف على العروض المنشورة — عرض وإشراف فقط.",
+    "searchPlaceholder": "البحث بالعنوان أو المدينة أو الشركة…"
+  },
+  "categories": {
+    "title": "الفئات والمهن",
+    "subtitle": "إدارة القطاعات المرتبطة بعروض قاعدة البيانات.",
+    "searchCategory": "البحث عن فئة…",
+    "searchMetier": "البحث عن مهنة…",
+    "addCategory": "إضافة فئة",
+    "addMetier": "إضافة مهنة",
+    "colCategory": "الفئة",
+    "colOffers": "العروض",
+    "name": "الاسم",
+    "description": "الوصف",
+    "metierName": "اسم المهنة",
+    "selectCategory": "اختر فئة",
+    "newCategory": "فئة جديدة",
+    "editCategory": "تعديل الفئة",
+    "newMetier": "مهنة جديدة",
+    "editMetier": "تعديل المهنة",
+    "created": "تم إنشاء الفئة.",
+    "updated": "تم تحديث الفئة.",
+    "deleted": "تم حذف الفئة.",
+    "metierCreated": "تم إنشاء المهنة.",
+    "metierUpdated": "تم تحديث المهنة.",
+    "metierDeleted": "تم حذف المهنة."
+  },
+  "applications": {
+    "title": "الترشيحات",
+    "subtitle": "الإشراف على الترشيحات — كشف الإساءة ومراجعة السيرة وحذف الترشيحات المسيئة.",
+    "candidate": "المرشح",
+    "offer": "العرض",
+    "recruiter": "مسؤول التوظيف",
+    "date": "التاريخ"
+  },
+  "support": {
+    "title": "دعم المنصة",
+    "subtitle": "تذاكر الدعم فقط — محادثات التوظيف تبقى بين المرشح ومسؤول التوظيف."
+  },
+  "reviews": {
+    "title": "التقييمات والتعليقات",
+    "subtitle": "إشراف على تقييمات المرشحين ومسؤولي التوظيف — إخفاء شامل عبر المنصة."
+  },
+  "notificationsPage": {
+    "title": "الإشعارات",
+    "subtitle": "مركز الإشراف: التسجيلات والعروض والبلاغات وتذاكر الدعم والإشراف."
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "مرحباً {{name}}، إليك نظرة عامة على نشاط InJob اليوم.",
+    "generateReport": "إنشاء تقرير PDF",
+    "recentRecruiters": "مسؤولو توظيف جدد",
+    "seeAll": "عرض الكل",
+    "noRecentRecruiters": "لا يوجد مسؤولو توظيف حديثون.",
+    "globalRating": "التقييم العام",
+    "basedOnReviews": "بناءً على {{count}}+ تقييم",
+    "allStats": "عرض جميع الإحصائيات",
+    "recentApplications": "ترشيحات حديثة",
+    "noRecentApplications": "لا توجد ترشيحات حديثة."
+  }
+}

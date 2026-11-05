@@ -1,0 +1,233 @@
+{
+  "brand": {
+    "title": "InJob",
+    "subtitle": "Administration"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "offers": "Job offers",
+    "applications": "Applications",
+    "categories": "Categories & jobs",
+    "messages": "Messages",
+    "support": "Platform support",
+    "reviews": "Reviews & comments",
+    "notifications": "Notifications",
+    "statistics": "Statistics",
+    "settings": "Settings",
+    "profile": "My profile",
+    "logout": "Log out"
+  },
+  "topbar": {
+    "searchPlaceholder": "Search menu or settings..."
+  },
+  "common": {
+    "save": "Save changes",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "search": "Search…",
+    "loading": "Loading…",
+    "noData": "No data.",
+    "confirmDelete": "Delete permanently?",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "unavailable": "Data unavailable",
+    "online": "Online",
+    "offline": "Offline",
+    "actions": "Actions",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "all": "All",
+    "saveSuccess": "Settings saved."
+  },
+  "stats": {
+    "title": "Statistics",
+    "subtitle": "Key metrics and platform performance for InJob.",
+    "cards": {
+      "users": "Registered users",
+      "candidates": "Candidates",
+      "recruiters": "Recruiters",
+      "activeOffers": "Active offers",
+      "expiredOffers": "Expired offers",
+      "applications": "Total applications",
+      "messages": "Messages exchanged",
+      "reviews": "Published reviews",
+      "avgRating": "Average rating"
+    },
+    "charts": {
+      "applicationsByMonth": "Applications per month",
+      "byCategory": "Distribution by category",
+      "registrations": "Registration trends",
+      "offersByMonth": "Offers published per month",
+      "candidates": "Candidates",
+      "recruiters": "Recruiters"
+    },
+    "system": {
+      "title": "System status",
+      "serverStatus": "Server status",
+      "database": "Database",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "responseTime": "Response time",
+      "activeSessions": "Active sessions",
+      "uptime": "Uptime",
+      "lastCheck": "Last check"
+    },
+    "ratingOutOf": "{{value}} / 5",
+    "noRating": "—"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Global configuration for the InJob platform",
+    "tabs": {
+      "general": "General",
+      "security": "Security",
+      "notifications": "Notifications",
+      "languages": "Languages",
+      "appearance": "Appearance",
+      "profile": "Profile"
+    },
+    "general": {
+      "siteInfo": "Site information",
+      "siteName": "Platform name",
+      "version": "System version",
+      "darkMode": "Dark mode",
+      "darkModeHint": "Use a dark theme for the admin interface.",
+      "maintenance": "Maintenance mode",
+      "maintenanceHint": "Restricts access for non-admin users."
+    },
+    "security": {
+      "title": "Security",
+      "sanctum": "Sanctum authentication enabled for the API.",
+      "bcrypt": "Passwords hashed with bcrypt.",
+      "adminOnly": "Admin access restricted to administrator role.",
+      "sessionTimeout": "Session timeout (minutes)",
+      "passwordTitle": "Change administrator password"
+    },
+    "notifications": {
+      "title": "Admin notifications",
+      "inscriptions": "New registrations",
+      "offres": "New published offers",
+      "candidatures": "New applications",
+      "support": "Support tickets",
+      "avis": "New reviews",
+      "security": "Security alerts"
+    },
+    "languages": {
+      "title": "Admin interface language",
+      "description": "Choose the language displayed across the entire admin panel.",
+      "french": "Français",
+      "english": "English",
+      "arabic": "العربية"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "darkMode": "Dark mode",
+      "darkModeHint": "Use a dark theme for the admin interface."
+    }
+  },
+  "users": {
+    "title": "User management",
+    "subtitle": "Supervise candidate, recruiter and administrator accounts.",
+    "searchPlaceholder": "Search by name or email…",
+    "allRoles": "All roles",
+    "roleCandidate": "Candidates",
+    "roleRecruiter": "Recruiters",
+    "roleAdmin": "Admins",
+    "columns": {
+      "user": "User",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "status": "Status"
+    },
+    "active": "Active",
+    "suspended": "Suspended",
+    "suspend": "Suspend",
+    "activate": "Activate",
+    "warn": "Warning",
+    "viewProfile": "View profile",
+    "confirmSuspend": "Suspend this account?",
+    "suspendedOk": "Account suspended.",
+    "activatedOk": "Account activated.",
+    "warnPrompt": "Warning message:",
+    "warnOk": "Warning sent.",
+    "deletedOk": "User deleted."
+  },
+  "messages": {
+    "title": "Messages",
+    "subtitle": "Messages received from the application Contact form.",
+    "searchPlaceholder": "Search by name, email or content…",
+    "inbox": "Inbox",
+    "clearAll": "Clear all messages",
+    "selectMessage": "Select a message to read and reply.",
+    "replyPlaceholder": "Your reply to the sender…",
+    "allStatuses": "All statuses",
+    "statusNew": "New",
+    "statusRead": "Read",
+    "statusReplied": "Replied"
+  },
+  "offers": {
+    "title": "Job offers",
+    "subtitle": "Supervise published offers — view and moderate only.",
+    "searchPlaceholder": "Search title, city, company…"
+  },
+  "categories": {
+    "title": "Categories & jobs",
+    "subtitle": "Manage sectors linked to real database offers.",
+    "searchCategory": "Search a category…",
+    "searchMetier": "Search a job…",
+    "addCategory": "Add category",
+    "addMetier": "Add job",
+    "colCategory": "Category",
+    "colOffers": "Offers",
+    "name": "Name",
+    "description": "Description",
+    "metierName": "Job name",
+    "selectCategory": "Select a category",
+    "newCategory": "New category",
+    "editCategory": "Edit category",
+    "newMetier": "New job",
+    "editMetier": "Edit job",
+    "created": "Category created.",
+    "updated": "Category updated.",
+    "deleted": "Category deleted.",
+    "metierCreated": "Job created.",
+    "metierUpdated": "Job updated.",
+    "metierDeleted": "Job deleted."
+  },
+  "applications": {
+    "title": "Applications",
+    "subtitle": "Application supervision — abuse detection, CV review, abusive deletion.",
+    "candidate": "Candidate",
+    "offer": "Offer",
+    "recruiter": "Recruiter",
+    "date": "Date"
+  },
+  "support": {
+    "title": "Platform support",
+    "subtitle": "Support tickets only — recruitment conversations stay between candidate and recruiter."
+  },
+  "reviews": {
+    "title": "Reviews & comments",
+    "subtitle": "Moderate candidate and recruiter reviews — global hide across the platform."
+  },
+  "notificationsPage": {
+    "title": "Notifications",
+    "subtitle": "Supervision hub: registrations, offers, reports, support tickets and moderation."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome {{name}}, here is an overview of InJob activity today.",
+    "generateReport": "Generate PDF report",
+    "recentRecruiters": "New recruiters",
+    "seeAll": "See all",
+    "noRecentRecruiters": "No recent recruiters.",
+    "globalRating": "Global rating",
+    "basedOnReviews": "Based on {{count}}+ reviews",
+    "allStats": "View all statistics",
+    "recentApplications": "Recent applications",
+    "noRecentApplications": "No recent applications."
+  }
+}

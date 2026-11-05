@@ -1,0 +1,312 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-page: #E8E8F5;
+  --color-primary: #4361EE;
+  --color-primary-dark: #2D3FCC;
+  --color-primary-light: #6B8CFF;
+  --color-primary-pale: #A8C4FF;
+  --color-primary-soft: #EEF2FF;
+  --color-white: #FFFFFF;
+  --color-text-dark: #1A1A2E;
+  --color-text-secondary: #6B7280;
+  --color-accent: #06D6A0;
+  --color-error: #EF4444;
+  --color-success: #10B981;
+  --shadow-card: 0 4px 24px rgba(67, 97, 238, 0.10);
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+.animate-shake {
+  animation: shake 0.45s ease-in-out;
+}
+
+@keyframes float-blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(12px, -18px) scale(1.05); }
+}
+
+.animate-float-blob {
+  animation: float-blob 8s ease-in-out infinite;
+}
+
+.scroll-section {
+  scroll-margin-top: 5.5rem;
+}
+
+[data-section-content] {
+  scroll-margin-top: 5.5rem;
+}
+
+.btn-primary-solid {
+  background-color: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(67, 97, 238, 0.25);
+}
+
+.btn-primary-solid:hover:not(:disabled) {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-primary-solid:disabled {
+  background-color: var(--color-primary);
+  color: #fff;
+  opacity: 0.85;
+  cursor: not-allowed;
+  box-shadow: 0 2px 8px rgba(67, 97, 238, 0.2);
+}
+
+.form-panel {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.recruteur-offres-section {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .recruteur-offres-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .recruteur-offres-section {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+.offers-grid {
+  display: grid;
+  width: 100%;
+  gap: 1rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+  .offers-grid {
+    gap: 1.25rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .offers-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .offers-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.auth-card {
+  box-shadow: var(--shadow-card);
+}
+
+/* Header public : ligne bleue uniquement au survol ou lien actif */
+.nav-underline-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-underline-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-radius: 9999px;
+  background-color: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+  pointer-events: none;
+}
+
+.nav-underline-link:hover,
+.nav-underline-link.nav-underline-visible {
+  color: var(--color-primary);
+}
+
+.nav-underline-link:hover::after,
+.nav-underline-link.nav-underline-visible::after {
+  transform: scaleX(1);
+}
+
+/* Sidebar admin : fixe, menu scrollable sans barre visible */
+.admin-sidebar-nav {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.admin-sidebar-nav::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Sidebar admin : survol transparent, actif bleu plein */
+.admin-nav-link {
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-nav-idle {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.admin-nav-link.admin-nav-idle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.admin-nav-link.admin-nav-active {
+  background-color: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(67, 97, 238, 0.35);
+}
+
+/* Onglets Paramètres admin : survol transparent, actif bleu */
+.settings-tab {
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.settings-tab-idle {
+  color: var(--color-text-secondary);
+}
+
+.settings-tab-idle:hover {
+  background-color: rgba(67, 97, 238, 0.08);
+  color: var(--color-text-dark);
+}
+
+.settings-tab-active {
+  background-color: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(67, 97, 238, 0.2);
+}
+
+.admin-gradient-btn {
+  background-color: var(--color-primary-light);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(107, 140, 255, 0.3);
+}
+
+.admin-gradient-btn:hover {
+  background-color: var(--color-primary);
+}
+
+.admin-gradient-card {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-page);
+  color: var(--color-text-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Chat messagerie */
+.chat-layout aside {
+  transition: box-shadow 0.2s ease;
+}
+
+.chat-layout aside:hover {
+  box-shadow: var(--shadow-card);
+}
+
+.chat-bubble-mine {
+  animation: fadeInUp 0.2s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Admin dark mode */
+.admin-dark {
+  --color-bg-page: #0f172a;
+  --color-text-dark: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-primary-soft: #1e293b;
+}
+
+.admin-dark .admin-topbar,
+.admin-dark .admin-stat-card,
+.admin-dark .admin-settings-card,
+.admin-dark .admin-settings-nav {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f1f5f9;
+}
+
+.admin-dark .admin-topbar input,
+.admin-dark .admin-settings-card input,
+.admin-dark .admin-settings-card textarea,
+.admin-dark .admin-settings-card select {
+  background-color: #0f172a;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+.admin-dark .admin-main .auth-card {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+.admin-dark .settings-tab-idle {
+  color: #cbd5e1;
+}
+
+.admin-dark .settings-tab-idle:hover {
+  background-color: rgba(67, 97, 238, 0.15);
+  color: #f1f5f9;
+}
+
+.admin-stat-card,
+.admin-settings-card {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.admin-stat-card:hover {
+  box-shadow: var(--shadow-card);
+}

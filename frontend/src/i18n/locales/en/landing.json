@@ -1,0 +1,36 @@
+{
+  "badge": "100% Moroccan Platform — Agadir",
+  "hero": {
+    "title": "Your professional future starts",
+    "titleHighlight": "here",
+    "subtitle": "Every opportunity matters. Join thousands of talents and companies already building their success with InJob —",
+    "subtitleBold": "take the next step in your career.",
+    "ctaCandidate": "I'm looking for a job",
+    "ctaRecruiter": "I'm hiring"
+  },
+  "offers": {
+    "title": "Job offers"
+  },
+  "map": {
+    "title": "Explore Morocco",
+    "subtitle": "Interactive map of cities covered by InJob.",
+    "loading": "Loading map..."
+  },
+  "features": {
+    "title": "Why InJob?",
+    "subtitle": "A complete platform for candidates and recruiters.",
+    "search": { "title": "Smart search", "desc": "Filter by city, category and skills to find the ideal offer." },
+    "recruiter": { "title": "Recruiter space", "desc": "Publish your offers and manage applications in one place." },
+    "security": { "title": "Secure data", "desc": "Your personal information is protected and handled confidentially." },
+    "fast": { "title": "Quick apply", "desc": "Apply in a few clicks with your profile and CV." }
+  },
+  "about": {
+    "title": "About InJob",
+    "subtitle": "The Moroccan platform connecting talent and companies wherever you are in the Kingdom.",
+    "history": { "title": "Our story", "text": "InJob was born in Agadir with the ambition to offer a modern, accessible job search experience designed for the Moroccan market." },
+    "mission": { "title": "Our mission", "text": "Facilitate connections between motivated candidates and demanding recruiters, making every step simple and transparent." },
+    "audience": { "title": "Who is it for?", "text": "Candidates seeking opportunities, hiring companies and a team dedicated to growing Morocco's employment ecosystem." },
+    "proud": "Proudly Moroccan — based in Agadir",
+    "values": "Simplicity, trust and proximity: three values guiding every InJob feature."
+  }
+}

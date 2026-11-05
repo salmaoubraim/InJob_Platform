@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "offers": "Offres d'emploi",
+    "applications": "Mes candidatures",
+    "cv": "Mon CV",
+    "messaging": "Messages",
+    "support": "Support",
+    "notifications": "Notifications",
+    "reviews": "Avis des recruteurs",
+    "profile": "Mon profil"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Vue d'ensemble de votre activité.",
+    "loadError": "Impossible de charger le tableau de bord.",
+    "welcome": "Bienvenue",
+    "uploadCvHint": "Téléversez votre CV pour postuler aux offres.",
+    "applicationsCount": "{{count}} candidature",
+    "applicationsCount_plural": "{{count}} candidatures",
+    "stats": {
+      "applications": "Candidatures",
+      "pending": "En attente",
+      "accepted": "Acceptées",
+      "rejected": "Refusées",
+      "messages": "Messages",
+      "notifications": "Notifications"
+    },
+    "myApplications": "Mes candidatures",
+    "recentOffers": "Offres récentes",
+    "noApplications": "Aucune candidature pour le moment.",
+    "noOffers": "Aucune offre disponible.",
+    "availableOffers": "Offres disponibles",
+    "cvSaved": "CV enregistré",
+    "cvMissing": "À téléverser",
+    "unreadMessages": "Messages non lus"
+  },
+  "offers": {
+    "title": "Offres d'emploi",
+    "subtitle": "Parcourez et postulez aux offres disponibles.",
+    "subtitleLong": "Consultez toutes les offres, filtrez par domaine ou métier et postulez dans votre spécialité."
+  },
+  "applications": {
+    "title": "Mes candidatures",
+    "subtitle": "Suivez l'état de vos candidatures."
+  },
+  "cv": {
+    "title": "Mon CV",
+    "subtitle": "Gérez votre curriculum vitae.",
+    "subtitleLong": "Téléversez votre CV (PDF, DOC, DOCX — max 5 Mo). Les recruteurs le consultent lors de vos candidatures."
+  },
+  "messaging": {
+    "title": "Messages",
+    "subtitle": "Échangez avec les recruteurs."
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Contactez l'équipe InJob pour toute assistance."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Restez informé de l'activité sur votre compte.",
+    "emptyDescription": "Vos alertes apparaîtront ici."
+  },
+  "reviews": {
+    "title": "Avis des recruteurs",
+    "subtitle": "Consultez les avis laissés par les recruteurs."
+  },
+  "profile": {
+    "title": "Mon profil",
+    "subtitle": "Informations personnelles et préférences.",
+    "subtitleLong": "Complétez votre profil pour maximiser vos chances auprès des recruteurs."
+  }
+}

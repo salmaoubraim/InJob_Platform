@@ -1,0 +1,87 @@
+{
+  "brand": "InJob",
+  "roles": {
+    "candidat": "مرشح",
+    "recruteur": "مسؤول توظيف",
+    "admin": "مدير"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "offers": "العروض",
+    "features": "الميزات",
+    "about": "من نحن",
+    "contact": "اتصل بنا"
+  },
+  "menu": {
+    "profile": "الملف الشخصي",
+    "messaging": "الرسائل",
+    "notifications": "الإشعارات",
+    "reviews": "التقييمات والتعليقات",
+    "support": "الدعم",
+    "logout": "تسجيل الخروج",
+    "seeOffers": "عرض الوظائف",
+    "searchMenu": "البحث في القائمة…"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب"
+  },
+  "searchOffer": "البحث عن عرض عمل…",
+  "actions": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "search": "بحث",
+    "loading": "جاري التحميل…",
+    "noData": "لا توجد بيانات.",
+    "confirmDelete": "حذف نهائي؟",
+    "close": "إغلاق",
+    "send": "إرسال",
+    "seeAll": "عرض الكل"
+  },
+  "language": {
+    "label": "اللغة",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  },
+  "footer": {
+    "tagline": "المنصة المغربية التي تربط المواهب والشركات في جميع أنحاء المملكة.",
+    "platform": "المنصة",
+    "account": "الحساب",
+    "legal": "قانوني",
+    "registerCandidate": "تسجيل مرشح",
+    "registerRecruiter": "تسجيل مسؤول توظيف",
+    "terms": "شروط الاستخدام",
+    "privacy": "الخصوصية",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "copyright": "© {{year}} InJob. جميع الحقوق محفوظة. — التوظيف في المغرب"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "empty": "لا توجد إشعارات",
+    "markAllRead": "تحديد الكل كمقروء",
+    "delete": "حذف",
+    "clearAll": "مسح الإشعارات"
+  },
+  "supportPage": {
+    "title": "اتصل بالدعم",
+    "subtitle": "مشكلة تقنية أو بلاغ أو حساب محظور أو سؤال عن المنصة.",
+    "newTicket": "تذكرة جديدة"
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "subtitle": "سؤال أو شراكة أو مساعدة؟ راسلنا.",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "send": "إرسال الرسالة",
+    "namePlaceholder": "اسمك",
+    "emailPlaceholder": "you@example.com",
+    "messagePlaceholder": "رسالتك...",
+    "success": "تم إرسال رسالتك بنجاح."
+  }
+}

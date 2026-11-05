@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "offers": "عروضي",
+    "applications": "الترشيحات المستلمة",
+    "messaging": "الرسائل",
+    "support": "الدعم",
+    "notifications": "الإشعارات",
+    "reviews": "التقييمات والتعليقات",
+    "profile": "ملف الشركة"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "نظرة عامة على نشاطك.",
+    "loadError": "تعذر تحميل لوحة التحكم.",
+    "welcome": "مرحباً",
+    "stats": {
+      "publishedOffers": "عروض منشورة",
+      "activeOffers": "عروض نشطة",
+      "applications": "الترشيحات",
+      "pending": "قيد الانتظار",
+      "accepted": "مقبولة",
+      "messages": "الرسائل",
+      "notifications": "الإشعارات",
+      "reviews": "تقييمات مستلمة"
+    },
+    "myOffers": "عروضي",
+    "recentApplications": "ترشيحات حديثة",
+    "recentMessages": "رسائل حديثة",
+    "recentReviews": "تقييمات حديثة",
+    "noOffers": "لا توجد عروض منشورة.",
+    "noApplications": "لا توجد ترشيحات مستلمة.",
+    "noMessages": "لا توجد رسائل.",
+    "noReviews": "لا توجد تقييمات.",
+    "unreadMessages": "رسائل غير مقروءة",
+    "seeAll": "عرض الكل",
+    "applicationsReceived": "{{count}} ترشيح مستلم",
+    "applicationsReceived_plural": "{{count}} ترشيحات مستلمة",
+    "activeOffers": "{{count}} نشط",
+    "activeOffers_plural": "{{count}} نشطة",
+    "pendingTrend": "{{count}} قيد الانتظار",
+    "acceptedTrend": "{{count}} مقبول",
+    "acceptedTrend_plural": "{{count}} مقبولة",
+    "candidatesShort": "{{count}} ترشيح"
+  },
+  "offers": {
+    "title": "عروضي",
+    "subtitle": "انشر وأدر عروض العمل الخاصة بك.",
+    "subtitleLong": "أنشئ وعدّل وتابع عروض العمل الخاصة بك.",
+    "manageTitle": "إدارة العروض",
+    "manageSubtitle": "انشر وأدر إعلاناتك الظاهرة للمرشحين."
+  },
+  "applications": {
+    "title": "الترشيحات المستلمة",
+    "subtitle": "راجع وعالج الترشيحات."
+  },
+  "messaging": {
+    "title": "الرسائل",
+    "subtitle": "تواصل مع المرشحين."
+  },
+  "support": {
+    "title": "الدعم",
+    "subtitle": "اتصل بفريق InJob للمساعدة."
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "subtitle": "ابق على اطلاع بنشاط حسابك.",
+    "emptyDescription": "سيتم تنبيهك عندما يتقدم مرشح إلى إحدى عروضك."
+  },
+  "reviews": {
+    "title": "التقييمات والتعليقات",
+    "subtitle": "أدر التقييمات حول شركتك."
+  },
+  "profile": {
+    "title": "ملف الشركة",
+    "subtitle": "معلومات شركتك.",
+    "subtitleLong": "معلومات شركتك الظاهرة للمرشحين."
+  }
+}

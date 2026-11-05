@@ -1,0 +1,13 @@
+{
+  "required": "This field is required.",
+  "email": "Invalid email address.",
+  "passwordRequired": "Password required",
+  "passwordMin": "Password must be at least {{min}} characters.",
+  "passwordMismatch": "Passwords do not match.",
+  "candidatureStatus": {
+    "en_attente": "Pending",
+    "acceptee": "Accepted",
+    "refusee": "Rejected",
+    "entretien_programme": "Interview scheduled"
+  }
+}

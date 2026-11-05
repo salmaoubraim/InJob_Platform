@@ -1,0 +1,87 @@
+{
+  "brand": "InJob",
+  "roles": {
+    "candidat": "Candidat",
+    "recruteur": "Recruteur",
+    "admin": "Administrateur"
+  },
+  "nav": {
+    "home": "Accueil",
+    "offers": "Offres",
+    "features": "Fonctionnalités",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "menu": {
+    "profile": "Profil",
+    "messaging": "Messagerie",
+    "notifications": "Notifications",
+    "reviews": "Avis et commentaires",
+    "support": "Support",
+    "logout": "Se déconnecter",
+    "seeOffers": "Voir les offres",
+    "searchMenu": "Rechercher dans le menu…"
+  },
+  "auth": {
+    "login": "Connexion",
+    "register": "S'inscrire"
+  },
+  "searchOffer": "Rechercher une offre…",
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "loading": "Chargement…",
+    "noData": "Aucune donnée.",
+    "confirmDelete": "Supprimer définitivement ?",
+    "close": "Fermer",
+    "send": "Envoyer",
+    "seeAll": "Tout voir"
+  },
+  "language": {
+    "label": "Langue",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  },
+  "footer": {
+    "tagline": "La plateforme marocaine qui relie talents et entreprises, partout au Royaume.",
+    "platform": "Plateforme",
+    "account": "Compte",
+    "legal": "Légal",
+    "registerCandidate": "Inscription candidat",
+    "registerRecruiter": "Inscription recruteur",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Confidentialité",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "copyright": "© {{year}} InJob. Tous droits réservés. — Emploi au Maroc"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "Aucune notification",
+    "markAllRead": "Tout marquer comme lu",
+    "delete": "Supprimer",
+    "clearAll": "Vider les notifications"
+  },
+  "supportPage": {
+    "title": "Contacter le support",
+    "subtitle": "Problème technique, signalement, compte bloqué ou question sur la plateforme.",
+    "newTicket": "Nouveau ticket"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Une question, un partenariat ou besoin d'aide ? Écrivez-nous.",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "vous@exemple.com",
+    "messagePlaceholder": "Votre message...",
+    "success": "Votre message a bien été envoyé."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "offers": "Job offers",
+    "applications": "My applications",
+    "cv": "My CV",
+    "messaging": "Messages",
+    "support": "Support",
+    "notifications": "Notifications",
+    "reviews": "Recruiter reviews",
+    "profile": "My profile"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your activity.",
+    "loadError": "Unable to load dashboard.",
+    "welcome": "Welcome",
+    "uploadCvHint": "Upload your CV to apply to job offers.",
+    "applicationsCount": "{{count}} application",
+    "applicationsCount_plural": "{{count}} applications",
+    "stats": {
+      "applications": "Applications",
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "messages": "Messages",
+      "notifications": "Notifications"
+    },
+    "myApplications": "My applications",
+    "recentOffers": "Recent offers",
+    "noApplications": "No applications yet.",
+    "noOffers": "No offers available.",
+    "availableOffers": "Available offers",
+    "cvSaved": "CV saved",
+    "cvMissing": "To upload",
+    "unreadMessages": "Unread messages"
+  },
+  "offers": {
+    "title": "Job offers",
+    "subtitle": "Browse and apply to available offers.",
+    "subtitleLong": "Browse all offers, filter by field or job and apply in your specialty."
+  },
+  "applications": {
+    "title": "My applications",
+    "subtitle": "Track the status of your applications."
+  },
+  "cv": {
+    "title": "My CV",
+    "subtitle": "Manage your curriculum vitae.",
+    "subtitleLong": "Upload your CV (PDF, DOC, DOCX — max 5 MB). Recruiters view it with your applications."
+  },
+  "messaging": {
+    "title": "Messages",
+    "subtitle": "Chat with recruiters."
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Contact the InJob team for assistance."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Stay informed about activity on your account.",
+    "emptyDescription": "Your alerts will appear here."
+  },
+  "reviews": {
+    "title": "Recruiter reviews",
+    "subtitle": "View reviews left by recruiters."
+  },
+  "profile": {
+    "title": "My profile",
+    "subtitle": "Personal information and preferences.",
+    "subtitleLong": "Complete your profile to maximize your chances with recruiters."
+  }
+}

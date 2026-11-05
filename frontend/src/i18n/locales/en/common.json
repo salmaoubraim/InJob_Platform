@@ -1,0 +1,87 @@
+{
+  "brand": "InJob",
+  "roles": {
+    "candidat": "Candidate",
+    "recruteur": "Recruiter",
+    "admin": "Administrator"
+  },
+  "nav": {
+    "home": "Home",
+    "offers": "Jobs",
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "menu": {
+    "profile": "Profile",
+    "messaging": "Messages",
+    "notifications": "Notifications",
+    "reviews": "Reviews & comments",
+    "support": "Support",
+    "logout": "Log out",
+    "seeOffers": "View jobs",
+    "searchMenu": "Search menu…"
+  },
+  "auth": {
+    "login": "Log in",
+    "register": "Sign up"
+  },
+  "searchOffer": "Search for a job…",
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "loading": "Loading…",
+    "noData": "No data.",
+    "confirmDelete": "Delete permanently?",
+    "close": "Close",
+    "send": "Send",
+    "seeAll": "See all"
+  },
+  "language": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  },
+  "footer": {
+    "tagline": "The Moroccan platform connecting talent and companies across the Kingdom.",
+    "platform": "Platform",
+    "account": "Account",
+    "legal": "Legal",
+    "registerCandidate": "Candidate sign up",
+    "registerRecruiter": "Recruiter sign up",
+    "terms": "Terms of use",
+    "privacy": "Privacy",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "copyright": "© {{year}} InJob. All rights reserved. — Jobs in Morocco"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications",
+    "markAllRead": "Mark all as read",
+    "delete": "Delete",
+    "clearAll": "Clear notifications"
+  },
+  "supportPage": {
+    "title": "Contact support",
+    "subtitle": "Technical issue, report, blocked account or platform question.",
+    "newTicket": "New ticket"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "A question, partnership or need help? Write to us.",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Message",
+    "send": "Send message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@example.com",
+    "messagePlaceholder": "Your message...",
+    "success": "Your message was sent successfully."
+  }
+}

@@ -1,0 +1,24 @@
+==========================================
+  IMAGE HERO — Page d'accueil InJob
+==========================================
+
+Placez VOTRE image dans ce dossier avec l'un de ces noms :
+
+  hero.png
+  hero.jpg
+  hero.jpeg
+  hero.webp
+
+Chemin complet (exemple) :
+  E:\inJob\frontend\public\images\hero.png
+
+Conseils :
+  - Format : PNG ou JPG
+  - Taille conseillée : 800 x 600 px minimum
+  - Poids : moins de 1 Mo si possible
+
+Après avoir copié l'image :
+  1. cd E:\inJob\frontend
+  2. npm run build:xampp
+  3. Copier dist vers htdocs (ou npm run dev)
+  4. Rafraîchir http://localhost/injob/ (Ctrl+F5)

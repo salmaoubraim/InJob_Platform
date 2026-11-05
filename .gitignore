@@ -1,0 +1,46 @@
+# Dépendances
+node_modules/
+vendor/
+
+# Builds frontend (Vite / XAMPP)
+frontend/dist/
+frontend/dist-ssr/
+/assets/
+/index.html
+
+# Environnement & secrets
+.env
+.env.*
+!.env.example
+frontend/.env.xampp
+backend/.env
+
+# Laravel
+backend/public/build
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/storage/logs/*
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+!backend/storage/**/.gitignore
+backend/bootstrap/cache/*.php
+!backend/bootstrap/cache/.gitignore
+
+# Logs & cache
+*.log
+npm-debug.log*
+.phpunit.cache
+.phpunit.result.cache
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

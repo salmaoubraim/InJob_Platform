@@ -1,0 +1,36 @@
+{
+  "badge": "Plateforme 100% Marocaine — Agadir",
+  "hero": {
+    "title": "Votre avenir professionnel commence",
+    "titleHighlight": "ici",
+    "subtitle": "Chaque opportunité compte. Rejoignez des milliers de talents et d'entreprises qui construisent déjà leur succès avec InJob —",
+    "subtitleBold": "osez le prochain chapitre de votre carrière.",
+    "ctaCandidate": "Je cherche un emploi",
+    "ctaRecruiter": "Je recrute"
+  },
+  "offers": {
+    "title": "Offres d'emploi"
+  },
+  "map": {
+    "title": "Explorez le Maroc",
+    "subtitle": "Carte interactive des villes couvertes par InJob.",
+    "loading": "Chargement de la carte..."
+  },
+  "features": {
+    "title": "Pourquoi InJob ?",
+    "subtitle": "Une plateforme complète pour candidats et recruteurs.",
+    "search": { "title": "Recherche intelligente", "desc": "Filtrez par ville, catégorie et compétences pour trouver l'offre idéale." },
+    "recruiter": { "title": "Espace recruteur", "desc": "Publiez vos offres et gérez les candidatures en un seul endroit." },
+    "security": { "title": "Données sécurisées", "desc": "Vos informations personnelles sont protégées et traitées en toute confidentialité." },
+    "fast": { "title": "Candidature rapide", "desc": "Postulez en quelques clics avec votre profil et votre CV." }
+  },
+  "about": {
+    "title": "À propos d'InJob",
+    "subtitle": "La plateforme marocaine qui rapproche les talents et les entreprises, où que vous soyez au Royaume.",
+    "history": { "title": "Notre histoire", "text": "InJob est née à Agadir avec l'ambition d'offrir une expérience de recherche d'emploi moderne, accessible et pensée pour le marché marocain." },
+    "mission": { "title": "Notre mission", "text": "Faciliter la rencontre entre candidats motivés et recruteurs exigeants, en rendant chaque étape simple et transparente." },
+    "audience": { "title": "Pour qui ?", "text": "Candidats en quête d'opportunités, entreprises qui recrutent et une équipe dédiée à faire grandir l'écosystème emploi au Maroc." },
+    "proud": "Fièrement marocain — basé à Agadir",
+    "values": "Simplicité, confiance et proximité : trois valeurs qui guident chaque fonctionnalité de l'application InJob."
+  }
+}

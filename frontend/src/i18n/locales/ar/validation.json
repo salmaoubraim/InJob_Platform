@@ -1,0 +1,13 @@
+{
+  "required": "هذا الحقل مطلوب.",
+  "email": "عنوان بريد إلكتروني غير صالح.",
+  "passwordRequired": "كلمة المرور مطلوبة",
+  "passwordMin": "يجب أن تحتوي كلمة المرور على {{min}} أحرف على الأقل.",
+  "passwordMismatch": "كلمتا المرور غير متطابقتين.",
+  "candidatureStatus": {
+    "en_attente": "قيد الانتظار",
+    "acceptee": "مقبولة",
+    "refusee": "مرفوضة",
+    "entretien_programme": "مقابلة مجدولة"
+  }
+}

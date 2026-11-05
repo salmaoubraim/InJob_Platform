@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "offers": "عروض العمل",
+    "applications": "ترشيحاتي",
+    "cv": "سيرتي الذاتية",
+    "messaging": "الرسائل",
+    "support": "الدعم",
+    "notifications": "الإشعارات",
+    "reviews": "تقييمات مسؤولي التوظيف",
+    "profile": "ملفي الشخصي"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "نظرة عامة على نشاطك.",
+    "loadError": "تعذر تحميل لوحة التحكم.",
+    "welcome": "مرحباً",
+    "uploadCvHint": "حمّل سيرتك الذاتية للتقدم إلى عروض العمل.",
+    "applicationsCount": "{{count}} ترشيح",
+    "applicationsCount_plural": "{{count}} ترشيحات",
+    "stats": {
+      "applications": "الترشيحات",
+      "pending": "قيد الانتظار",
+      "accepted": "مقبولة",
+      "rejected": "مرفوضة",
+      "messages": "الرسائل",
+      "notifications": "الإشعارات"
+    },
+    "myApplications": "ترشيحاتي",
+    "recentOffers": "عروض حديثة",
+    "noApplications": "لا توجد ترشيحات حالياً.",
+    "noOffers": "لا توجد عروض متاحة.",
+    "availableOffers": "عروض متاحة",
+    "cvSaved": "السيرة الذاتية محفوظة",
+    "cvMissing": "يجب رفعها",
+    "unreadMessages": "رسائل غير مقروءة"
+  },
+  "offers": {
+    "title": "عروض العمل",
+    "subtitle": "تصفح العروض المتاحة وقدّم عليها.",
+    "subtitleLong": "اطلع على جميع العروض، صفّ حسب المجال أو المهنة وقدّم في تخصصك."
+  },
+  "applications": {
+    "title": "ترشيحاتي",
+    "subtitle": "تابع حالة ترشيحاتك."
+  },
+  "cv": {
+    "title": "سيرتي الذاتية",
+    "subtitle": "أدر سيرتك الذاتية.",
+    "subtitleLong": "حمّل سيرتك الذاتية (PDF، DOC، DOCX — بحد أقصى 5 ميغابايت). يطلع عليها مسؤولو التوظيف مع ترشيحاتك."
+  },
+  "messaging": {
+    "title": "الرسائل",
+    "subtitle": "تواصل مع مسؤولي التوظيف."
+  },
+  "support": {
+    "title": "الدعم",
+    "subtitle": "اتصل بفريق InJob للمساعدة."
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "subtitle": "ابق على اطلاع بنشاط حسابك.",
+    "emptyDescription": "ستظهر تنبيهاتك هنا."
+  },
+  "reviews": {
+    "title": "تقييمات مسؤولي التوظيف",
+    "subtitle": "اطلع على التقييمات التي تركها مسؤولو التوظيف."
+  },
+  "profile": {
+    "title": "ملفي الشخصي",
+    "subtitle": "المعلومات الشخصية والتفضيلات.",
+    "subtitleLong": "أكمل ملفك الشخصي لتعظيم فرصك لدى مسؤولي التوظيف."
+  }
+}

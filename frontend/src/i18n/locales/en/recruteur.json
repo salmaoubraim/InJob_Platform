@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "offers": "My offers",
+    "applications": "Received applications",
+    "messaging": "Messages",
+    "support": "Support",
+    "notifications": "Notifications",
+    "reviews": "Reviews & comments",
+    "profile": "Company profile"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your activity.",
+    "loadError": "Unable to load dashboard.",
+    "welcome": "Welcome",
+    "stats": {
+      "publishedOffers": "Published offers",
+      "activeOffers": "Active offers",
+      "applications": "Applications",
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "messages": "Messages",
+      "notifications": "Notifications",
+      "reviews": "Reviews received"
+    },
+    "myOffers": "My offers",
+    "recentApplications": "Recent applications",
+    "recentMessages": "Recent messages",
+    "recentReviews": "Recent reviews",
+    "noOffers": "No published offers.",
+    "noApplications": "No applications received.",
+    "noMessages": "No messages.",
+    "noReviews": "No reviews.",
+    "unreadMessages": "Unread messages",
+    "seeAll": "See all",
+    "applicationsReceived": "{{count}} application received",
+    "applicationsReceived_plural": "{{count}} applications received",
+    "activeOffers": "{{count}} active",
+    "activeOffers_plural": "{{count}} active",
+    "pendingTrend": "{{count}} pending",
+    "acceptedTrend": "{{count}} accepted",
+    "acceptedTrend_plural": "{{count}} accepted",
+    "candidatesShort": "{{count}} appl."
+  },
+  "offers": {
+    "title": "My offers",
+    "subtitle": "Publish and manage your job offers.",
+    "subtitleLong": "Create, edit and track your job offers.",
+    "manageTitle": "Offer management",
+    "manageSubtitle": "Publish and manage your listings visible to candidates."
+  },
+  "applications": {
+    "title": "Received applications",
+    "subtitle": "Review and process applications."
+  },
+  "messaging": {
+    "title": "Messages",
+    "subtitle": "Chat with candidates."
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Contact the InJob team for assistance."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Stay informed about activity on your account.",
+    "emptyDescription": "You will be notified when a candidate applies to one of your offers."
+  },
+  "reviews": {
+    "title": "Reviews & comments",
+    "subtitle": "Manage reviews about your company."
+  },
+  "profile": {
+    "title": "Company profile",
+    "subtitle": "Your company information.",
+    "subtitleLong": "Your company information visible to candidates."
+  }
+}

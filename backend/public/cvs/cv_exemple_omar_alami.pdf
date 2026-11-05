@@ -1,0 +1,33 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>endobj
+4 0 obj<< /Length 784 >>stream
+BT /F1 16 Tf 72 750 Td (CV - Omar Alami) Tj ET
+BT /F1 11 Tf 72 722 Td (InJob - CV exemple \(Maroc\)) Tj ET
+BT /F1 11 Tf 72 702 Td (Nom : Omar Alami) Tj ET
+BT /F1 11 Tf 72 682 Td (Ville : Casablanca, Maroc) Tj ET
+BT /F1 11 Tf 72 662 Td (Metier : Peintre en batiment) Tj ET
+BT /F1 11 Tf 72 642 Td (Competences : Peinture interieure, finitions, preparation des surfaces) Tj ET
+BT /F1 11 Tf 72 622 Td (Experience : 2 a 5 ans) Tj ET
+BT /F1 11 Tf 72 602 Td (Email : omar.alami@injob.ma) Tj ET
+BT /F1 11 Tf 72 582 Td (Disponibilite : Immediate) Tj ET
+BT /F1 11 Tf 72 562 Td () Tj ET
+BT /F1 11 Tf 72 542 Td (--- Modele InJob ---) Tj ET
+BT /F1 11 Tf 72 522 Td (Remplacez ce fichier par votre propre CV PDF) Tj ET
+BT /F1 11 Tf 72 502 Td (via Mon CV ou en copiant un PDF dans public/cvs/) Tj ET
+endstream
+endobj
+5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000235 00000 n 
+0000001067 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+1135
+%%EOF

@@ -1,0 +1,233 @@
+{
+  "brand": {
+    "title": "InJob",
+    "subtitle": "Administration"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "users": "Utilisateurs",
+    "offers": "Offres d'emploi",
+    "applications": "Candidatures",
+    "categories": "Catégories & métiers",
+    "messages": "Messages",
+    "reviews": "Avis & commentaires",
+    "notifications": "Notifications",
+    "statistics": "Statistiques",
+    "settings": "Paramètres",
+    "profile": "Mon profil",
+    "logout": "Déconnexion"
+  },
+  "topbar": {
+    "searchPlaceholder": "Rechercher menu ou paramètres..."
+  },
+  "common": {
+    "save": "Enregistrer les modifications",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "search": "Rechercher…",
+    "loading": "Chargement…",
+    "noData": "Aucune donnée.",
+    "confirmDelete": "Supprimer définitivement ?",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "unavailable": "Données indisponibles",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "actions": "Actions",
+    "close": "Fermer",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "all": "Tous",
+    "saveSuccess": "Paramètres enregistrés."
+  },
+  "stats": {
+    "title": "Statistiques",
+    "subtitle": "Indicateurs clés et performance de la plateforme InJob.",
+    "cards": {
+      "users": "Utilisateurs inscrits",
+      "candidates": "Candidats",
+      "recruiters": "Recruteurs",
+      "activeOffers": "Offres actives",
+      "expiredOffers": "Offres expirées",
+      "applications": "Candidatures totales",
+      "messages": "Messages échangés",
+      "reviews": "Avis publiés",
+      "avgRating": "Note moyenne"
+    },
+    "charts": {
+      "applicationsByMonth": "Candidatures par mois",
+      "byCategory": "Répartition par catégorie",
+      "registrations": "Évolution des inscriptions",
+      "offersByMonth": "Offres publiées par mois",
+      "candidates": "Candidats",
+      "recruiters": "Recruteurs"
+    },
+    "system": {
+      "title": "État système",
+      "serverStatus": "Statut serveur",
+      "database": "Base de données",
+      "connected": "Connectée",
+      "disconnected": "Déconnectée",
+      "responseTime": "Temps de réponse",
+      "activeSessions": "Sessions actives",
+      "uptime": "Uptime",
+      "lastCheck": "Dernière vérification"
+    },
+    "ratingOutOf": "{{value}} / 5",
+    "noRating": "—"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Configuration globale de la plateforme InJob",
+    "tabs": {
+      "general": "Général",
+      "security": "Sécurité",
+      "notifications": "Notifications",
+      "languages": "Langues",
+      "appearance": "Apparence",
+      "profile": "Profil"
+    },
+    "general": {
+      "siteInfo": "Informations du site",
+      "siteName": "Nom de la plateforme",
+      "version": "Version du système",
+      "darkMode": "Mode sombre",
+      "darkModeHint": "Utiliser un thème sombre pour l'interface d'administration.",
+      "maintenance": "Mode maintenance",
+      "maintenanceHint": "Restreint l'accès aux utilisateurs non administrateurs."
+    },
+    "security": {
+      "title": "Sécurité",
+      "sanctum": "Authentification Sanctum activée pour l'API.",
+      "bcrypt": "Mots de passe hashés (bcrypt).",
+      "adminOnly": "Accès admin réservé au rôle administrateur.",
+      "sessionTimeout": "Délai d'expiration de session (minutes)",
+      "passwordTitle": "Modifier le mot de passe administrateur"
+    },
+    "notifications": {
+      "title": "Notifications admin",
+      "inscriptions": "Nouvelles inscriptions",
+      "offres": "Nouvelles offres publiées",
+      "candidatures": "Nouvelles candidatures",
+      "support": "Tickets support",
+      "avis": "Nouveaux avis",
+      "security": "Alertes de sécurité"
+    },
+    "languages": {
+      "title": "Langue de l'interface admin",
+      "description": "Choisissez la langue affichée dans tout le panneau d'administration.",
+      "french": "Français",
+      "english": "English",
+      "arabic": "العربية"
+    },
+    "appearance": {
+      "title": "Apparence",
+      "darkMode": "Mode sombre",
+      "darkModeHint": "Utiliser un thème sombre pour l'interface d'administration."
+    }
+  },
+  "users": {
+    "title": "Gestion des utilisateurs",
+    "subtitle": "Supervision des comptes candidats, recruteurs et administrateurs.",
+    "searchPlaceholder": "Rechercher par nom ou e-mail…",
+    "allRoles": "Tous rôles",
+    "roleCandidate": "Candidats",
+    "roleRecruiter": "Recruteurs",
+    "roleAdmin": "Admins",
+    "columns": {
+      "user": "Utilisateur",
+      "email": "Email",
+      "phone": "Téléphone",
+      "role": "Rôle",
+      "status": "Statut"
+    },
+    "active": "Actif",
+    "blocked": "Bloqué",
+    "suspended": "Bloqué",
+    "suspend": "Bloquer",
+    "activate": "Débloquer",
+    "warn": "Avertissement",
+    "viewProfile": "Voir profil",
+    "confirmSuspend": "Bloquer ce compte ? L'utilisateur ne pourra plus se connecter.",
+    "suspendedOk": "Compte bloqué.",
+    "activatedOk": "Compte débloqué.",
+    "warnPrompt": "Message d'avertissement :",
+    "warnOk": "Avertissement envoyé.",
+    "deletedOk": "Utilisateur supprimé."
+  },
+  "messages": {
+    "title": "Messages",
+    "subtitle": "Messages reçus depuis le formulaire Contact de l'application.",
+    "searchPlaceholder": "Rechercher par nom, e-mail ou contenu…",
+    "inbox": "Boîte de réception",
+    "clearAll": "Vider tous les messages",
+    "selectMessage": "Sélectionnez un message pour le lire et répondre.",
+    "replyPlaceholder": "Votre réponse à l'expéditeur…",
+    "allStatuses": "Tous statuts",
+    "statusNew": "Nouveaux",
+    "statusRead": "Lus",
+    "statusReplied": "Répondus"
+  },
+  "offers": {
+    "title": "Offres d'emploi",
+    "subtitle": "Supervision des offres publiées — consultation et modération uniquement.",
+    "searchPlaceholder": "Rechercher titre, ville, entreprise…"
+  },
+  "categories": {
+    "title": "Catégories & métiers",
+    "subtitle": "Gestion des secteurs liés aux offres réelles en base de données.",
+    "searchCategory": "Rechercher une catégorie…",
+    "searchMetier": "Rechercher un métier…",
+    "addCategory": "Ajouter catégorie",
+    "addMetier": "Ajouter métier",
+    "colCategory": "Catégorie",
+    "colOffers": "Offres",
+    "name": "Nom",
+    "description": "Description",
+    "metierName": "Nom du métier",
+    "selectCategory": "Choisir une catégorie",
+    "newCategory": "Nouvelle catégorie",
+    "editCategory": "Modifier la catégorie",
+    "newMetier": "Nouveau métier",
+    "editMetier": "Modifier le métier",
+    "created": "Catégorie créée.",
+    "updated": "Catégorie mise à jour.",
+    "deleted": "Catégorie supprimée.",
+    "metierCreated": "Métier créé.",
+    "metierUpdated": "Métier mis à jour.",
+    "metierDeleted": "Métier supprimé."
+  },
+  "applications": {
+    "title": "Candidatures",
+    "subtitle": "Supervision des candidatures — détection d'abus, consultation CV, suppression abusive.",
+    "candidate": "Candidat",
+    "offer": "Offre",
+    "recruiter": "Recruteur",
+    "date": "Date"
+  },
+  "support": {
+    "title": "Support plateforme",
+    "subtitle": "Tickets support uniquement — les conversations recrutement restent entre candidat et recruteur."
+  },
+  "reviews": {
+    "title": "Avis & commentaires",
+    "subtitle": "Modération des évaluations candidats et recruteurs — masquage global sur la plateforme."
+  },
+  "notificationsPage": {
+    "title": "Notifications",
+    "subtitle": "Centre de supervision : inscriptions, offres, messages contact, signalements et modération."
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Bienvenue {{name}}, voici un aperçu de l'activité InJob aujourd'hui.",
+    "generateReport": "Générer le rapport PDF",
+    "recentRecruiters": "Nouveaux recruteurs",
+    "seeAll": "Tout voir",
+    "noRecentRecruiters": "Aucun recruteur récent.",
+    "globalRating": "Note globale",
+    "basedOnReviews": "Basée sur {{count}}+ avis",
+    "allStats": "Voir toutes les statistiques",
+    "recentApplications": "Candidatures récentes",
+    "noRecentApplications": "Aucune candidature récente."
+  }
+}

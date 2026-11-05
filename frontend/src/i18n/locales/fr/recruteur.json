@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "offers": "Mes offres",
+    "applications": "Candidatures reçues",
+    "messaging": "Messages",
+    "support": "Support",
+    "notifications": "Notifications",
+    "reviews": "Avis et commentaires",
+    "profile": "Profil entreprise"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Vue d'ensemble de votre activité.",
+    "loadError": "Impossible de charger le tableau de bord.",
+    "welcome": "Bienvenue",
+    "stats": {
+      "publishedOffers": "Offres publiées",
+      "activeOffers": "Offres actives",
+      "applications": "Candidatures",
+      "pending": "En attente",
+      "accepted": "Acceptées",
+      "messages": "Messages",
+      "notifications": "Notifications",
+      "reviews": "Avis reçus"
+    },
+    "myOffers": "Mes offres",
+    "recentApplications": "Candidatures récentes",
+    "recentMessages": "Messages récents",
+    "recentReviews": "Avis récents",
+    "noOffers": "Aucune offre publiée.",
+    "noApplications": "Aucune candidature reçue.",
+    "noMessages": "Aucun message.",
+    "noReviews": "Aucun avis.",
+    "unreadMessages": "Messages non lus",
+    "seeAll": "Tout voir",
+    "applicationsReceived": "{{count}} candidature reçue",
+    "applicationsReceived_plural": "{{count}} candidatures reçues",
+    "activeOffers": "{{count}} active",
+    "activeOffers_plural": "{{count}} actives",
+    "pendingTrend": "{{count}} en attente",
+    "acceptedTrend": "{{count}} acceptée",
+    "acceptedTrend_plural": "{{count}} acceptées",
+    "candidatesShort": "{{count}} cand."
+  },
+  "offers": {
+    "title": "Mes offres",
+    "subtitle": "Publiez et gérez vos offres d'emploi.",
+    "subtitleLong": "Créez, modifiez et suivez vos offres d'emploi.",
+    "manageTitle": "Gestion des offres",
+    "manageSubtitle": "Publiez et gérez vos annonces visibles par les candidats."
+  },
+  "applications": {
+    "title": "Candidatures reçues",
+    "subtitle": "Consultez et traitez les candidatures."
+  },
+  "messaging": {
+    "title": "Messages",
+    "subtitle": "Échangez avec les candidats."
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Contactez l'équipe InJob pour toute assistance."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Restez informé de l'activité sur votre compte.",
+    "emptyDescription": "Vous serez alerté dès qu'un candidat postulera à l'une de vos offres."
+  },
+  "reviews": {
+    "title": "Avis et commentaires",
+    "subtitle": "Gérez les avis sur votre entreprise."
+  },
+  "profile": {
+    "title": "Profil entreprise",
+    "subtitle": "Informations de votre entreprise.",
+    "subtitleLong": "Informations de votre entreprise visibles par les candidats."
+  }
+}
